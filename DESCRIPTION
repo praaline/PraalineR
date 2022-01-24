@@ -1,0 +1,17 @@
+Package: PraalineR
+Type: Package
+Title: An R Interface to Praaline
+Version: 0.1.0
+Authors@R: person("George", "Christodoulides", email = "info@praaline.org",
+                  role = c("aut", "cre"))
+Description: This package allows users to connect to a Praaline repository and run queries against 
+    its metadata and annotation data. Praaline is an open-source system to manage, annotate, visualise 
+    and analyse spoken language corpora (www.praaline.org).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.1)
+Imports:
+    DBI
+    
